@@ -28,6 +28,7 @@
 		CA3C1EE222B44B8A00143172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA3C1EE422B44B8A00143172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA3C1EEA22B44EDE00143172 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		CA3C1EEC22B452C400143172 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 		CA3C1EC622B44B8A00143172 = {
 			isa = PBXGroup;
 			children = (
+				CA3C1EEC22B452C400143172 /* README.md */,
 				CA3C1ED122B44B8A00143172 /* SwiftSnake */,
 				CA3C1ED022B44B8A00143172 /* Products */,
 			);
