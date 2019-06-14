@@ -32,8 +32,36 @@ class GameScene: SKScene {
         gameLogo.fontSize = 60
         gameLogo.text = "SNAKE"
         gameLogo.fontColor = SKColor.red
+        
         self.addChild(gameLogo)
         
+        
         // Create best score label
+        bestScore = SKLabelNode(fontNamed: "ArialRoundedMTBold")
+        bestScore.zPosition = 1
+        bestScore.position = CGPoint(x: 0, y: gameLogo.position.y - 50)
+        bestScore.fontSize = 40
+        bestScore.text = "Best Score: 0"
+        bestScore.fontColor = SKColor.white
+        
+        self.addChild(bestScore)
+        
+        
+        // Create play button
+        playButton = SKShapeNode()
+        playButton.name = "play_button"
+        playButton.zPosition = 1
+        playButton.position = CGPoint(x: 0, y: (frame.size.height / -2) + 200)
+        playButton.fillColor = SKColor.cyan
+        let topCorner = CGPoint(x: -50, y: 50)
+        let bottomCorner = CGPoint(x: -50, y: -50)
+        let middle = CGPoint(x: 50, y: 0)
+        let path = CGMutablePath()
+        
+        path.addLine(to: topCorner)
+        path.addLines(between: [topCorner, bottomCorner, middle])
+        playButton.path = path
+        
+        self.addChild(playButton)
     }
 }
