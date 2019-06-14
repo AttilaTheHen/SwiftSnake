@@ -31,7 +31,7 @@ class GameScene: SKScene {
         gameLogo.position = CGPoint(x: 0, y: (frame.size.height / 2) - 200)
         gameLogo.fontSize = 60
         gameLogo.text = "SNAKE"
-        gameLogo.fontColor = SKColor.red
+        gameLogo.fontColor = SKColor.green
         
         self.addChild(gameLogo)
         
