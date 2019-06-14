@@ -14,6 +14,7 @@
 		CA3C1EDE22B44B8A00143172 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3C1EDC22B44B8A00143172 /* Main.storyboard */; };
 		CA3C1EE022B44B8A00143172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA3C1EDF22B44B8A00143172 /* Assets.xcassets */; };
 		CA3C1EE322B44B8A00143172 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3C1EE122B44B8A00143172 /* LaunchScreen.storyboard */; };
+		CA3C1EEB22B44EDE00143172 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3C1EEA22B44EDE00143172 /* GameManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CA3C1EDF22B44B8A00143172 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA3C1EE222B44B8A00143172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA3C1EE422B44B8A00143172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA3C1EEA22B44EDE00143172 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				CA3C1EDF22B44B8A00143172 /* Assets.xcassets */,
 				CA3C1EE122B44B8A00143172 /* LaunchScreen.storyboard */,
 				CA3C1EE422B44B8A00143172 /* Info.plist */,
+				CA3C1EEA22B44EDE00143172 /* GameManager.swift */,
 			);
 			path = SwiftSnake;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA3C1ED922B44B8A00143172 /* GameScene.swift in Sources */,
+				CA3C1EEB22B44EDE00143172 /* GameManager.swift in Sources */,
 				CA3C1EDB22B44B8A00143172 /* GameViewController.swift in Sources */,
 				CA3C1ED322B44B8A00143172 /* AppDelegate.swift in Sources */,
 			);
