@@ -4,3 +4,4 @@ Learning Swift by making a simple Snake game. Following this [tutorial](https://
 
 Work in progress!
 
+Testing some changes to Git here
